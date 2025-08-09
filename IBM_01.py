@@ -1,3 +1,6 @@
 # CURSO IBM #
-#bueno algo e aprendido
+
+print("Hola Mundo bienvenido")
+print("Curso de Python IBM")
+
 
