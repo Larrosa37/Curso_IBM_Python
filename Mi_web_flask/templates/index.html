@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi primera web Flask</title>
+     <style>
+        h1 {
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mis tareas</h1>
+    <ul>
+        {% for tarea in tareas %}
+          <li>{{tarea}}</li>
+          {% endfor %}
+    </ul>
+
+    <h1>Mis compras</h1>
+    <ul>
+      
+        {% for compra in compras %}
+          <li>{{compra}}</li>
+          {% endfor %}
+    </ul>
+
+        
+    <p>Ahora esto ya parece una página web.</p>
+    </body>
+    </html>
